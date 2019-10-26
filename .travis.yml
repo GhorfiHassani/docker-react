@@ -7,4 +7,4 @@ before_install:
   - docker build -t ghorfi/docker-react -f  Dockerfile.dev .
 
 script:
-  - docker run ghorfi/docker-react npm run test -- --coverage
+  - docker run ghorfi/docker-react travis_wait npm run test -- --coverage

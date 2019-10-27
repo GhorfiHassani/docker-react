@@ -8,4 +8,4 @@ before_install:
 
 script:
   - "travis_wait 30"
-  - docker run ghorfi/docker-react npm run test -- --coverage
+  - docker run -e CI=true ghorfi/docker-react npm run test -- --coverage

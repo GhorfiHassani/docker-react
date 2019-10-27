@@ -1,0 +1,409 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/hassani/smart-mahal/smart-mahal-front
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse orders-checking
+> git rev-parse --symbolic-full-name orders-checking@{u}
+> git rev-list --left-right orders-checking...refs/remotes/origin/orders-checking
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/orders-checking', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/orders-checking'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse orders-checking
+> git rev-parse --symbolic-full-name orders-checking@{u}
+> git rev-list --left-right orders-checking...refs/remotes/origin/orders-checking
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/orders-checking', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/orders-checking'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git checkout -q --track origin/statistics-table
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/statistics/statistics-table/statistics-table.component.html
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git show :src/app/statistics/statistics-table/statistics-table.component.html
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/hassani/smart-mahal/smart-mahal-front/src/app/families/add-family/add-family.component.ts
+> git show c51e025ef555e3aca3fd779a8488d8da37396b4a
+> git show HEAD:src/app/families/add-family/add-family.component.ts
+> git check-ignore -v -z --stdin
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git ls-tree -l HEAD -- /home/hassani/smart-mahal/smart-mahal-front/src/app/shared/components/checked-list-modal/checked-list-modal.component.html
+> git show e45a10b6d1198fc974a7afb147e2096bdf433e91
+> git show HEAD:src/app/shared/components/checked-list-modal/checked-list-modal.component.html
+> git check-ignore -v -z --stdin
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git checkout -q -- /home/hassani/smart-mahal/smart-mahal-front/package-lock.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git checkout -q -- /home/hassani/smart-mahal/smart-mahal-front/src/app/families/add-family/add-family.component.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git checkout -q -- /home/hassani/smart-mahal/smart-mahal-front/src/app/shared/components/checked-list-modal/checked-list-modal.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git status -z -u
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git status -z -u
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git status -z -u
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git config --get commit.template
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git show :src/app/statistics/statistics-table/statistics-table.component.scss
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git checkout -q statistics-table
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/assets/i18n/ar.json
+> git show :src/assets/i18n/fr.json
+> git show :src/assets/i18n/ar.json
+> git add -A -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git show :src/assets/i18n/ar.json
+> git ls-tree -l HEAD -- /home/hassani/smart-mahal/smart-mahal-front/src/assets/i18n/fr.json
+> git show e78a36485b955ffe96be1eefc77b0b1821bc94f0
+> git ls-files --stage -- /home/hassani/smart-mahal/smart-mahal-front/src/assets/i18n/fr.json
+> git cat-file -s de5988b97d02a3a57311943897407547ce83a695
+> git show de5988b97d02a3a57311943897407547ce83a695
+> git show HEAD:src/assets/i18n/fr.json
+> git show :src/assets/i18n/fr.json
+> git show :src/assets/i18n/ar.json
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git show :src/assets/i18n/ar.json
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-front/.git/refs/remotes/origin/statistics-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git config --get commit.template
+> git show :src/assets/i18n/fr.json
+> git push origin statistics-table:statistics-table
+remote: 
+remote: View merge request for statistics-table:        
+remote:   https://gitlab.com/smart-mahal/smart-mahal-front/merge_requests/57        
+remote: 
+To https://gitlab.com/smart-mahal/smart-mahal-front.git
+   293df45..3803cc4  statistics-table -> statistics-table
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-table
+> git rev-parse --symbolic-full-name statistics-table@{u}
+> git rev-list --left-right statistics-table...refs/remotes/origin/statistics-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

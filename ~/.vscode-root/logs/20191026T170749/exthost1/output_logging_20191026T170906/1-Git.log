@@ -1,0 +1,91 @@
+Looking for git in: git
+Using git 2.7.4 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/hassani/smart-mahal/smart-mahal-back
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse orders-checking
+> git rev-parse --symbolic-full-name orders-checking@{u}
+> git rev-list --left-right orders-checking...refs/remotes/origin/orders-checking
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git check-ignore -v -z --stdin
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse orders-checking
+> git rev-parse --symbolic-full-name orders-checking@{u}
+> git rev-list --left-right orders-checking...refs/remotes/origin/orders-checking
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git checkout -q --track origin/statistics-v-table
+error: Your local changes to the following files would be overwritten by checkout:
+	package-lock.json
+Please, commit your changes or stash them before you can switch branches.
+Aborting
+> git checkout -q -- /home/hassani/smart-mahal/smart-mahal-back/package-lock.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse orders-checking
+> git rev-parse --symbolic-full-name orders-checking@{u}
+> git rev-list --left-right orders-checking...refs/remotes/origin/orders-checking
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse orders-checking
+> git rev-parse --symbolic-full-name orders-checking@{u}
+> git rev-list --left-right orders-checking...refs/remotes/origin/orders-checking
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/orders-checking'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)
+> git checkout -q --track origin/statistics-v-table
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse statistics-v-table
+> git rev-parse --symbolic-full-name statistics-v-table@{u}
+> git rev-list --left-right statistics-v-table...refs/remotes/origin/statistics-v-table
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/statistics-v-table', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/hassani/smart-mahal/smart-mahal-back/.git/refs/remotes/origin/statistics-v-table'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/code/resources/app/extensions/git/dist/main.js:1:594639)
+	at T.updateTransientWatchers (/usr/share/code/resources/app/extensions/git/dist/main.js:1:98365)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:227)
+	at k.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:1:116241)

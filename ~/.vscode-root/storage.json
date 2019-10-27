@@ -2,6 +2,7 @@
     "telemetry.machineId": "7ff66ed58ec0203035698852016f7cc94ae7e90021deb725dd95dde62486f963",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/hassani/react-docker",
             "file:///home/hassani/smart-mahal/smart-mahal-back",
             "file:///home/hassani/smart-mahal/smart-mahal-front"
         ],
@@ -50,13 +51,13 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/hassani/smart-mahal/smart-mahal-front",
-                                        "external": "file:///home/hassani/smart-mahal/smart-mahal-front",
-                                        "path": "/home/hassani/smart-mahal/smart-mahal-front",
+                                        "fsPath": "/home/hassani/react-docker",
+                                        "external": "file:///home/hassani/react-docker",
+                                        "path": "/home/hassani/react-docker",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/hassani/smart-mahal/smart-mahal-front"
+                                    "label": "/home/hassani/react-docker"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -68,6 +69,17 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/hassani/smart-mahal/smart-mahal-back"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hassani/smart-mahal/smart-mahal-front",
+                                        "path": "/home/hassani/smart-mahal/smart-mahal-front",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/hassani/smart-mahal/smart-mahal-front"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1388,7 +1400,7 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/hassani/smart-mahal",
+    "pickerWorkingDir": "/home/hassani",
     "windowsState": {
         "lastActiveWindow": {
             "folder": "file:///home/hassani/smart-mahal/smart-mahal-back",

@@ -9,3 +9,16 @@ before_install:
 script:
   
   - docker run -e CI=true ghorfi/docker-react npm run test -- --coverage
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-2"
+  app:  "react-docker"
+  env:  "ReactDocker-env"
+  bucket_name:  "elasticbeanstalk-us-east-2-024843734905"
+  bucket_path:  "react-docker"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_acsess_key:
+    secure: "$AWS_SECRET_KEY"
